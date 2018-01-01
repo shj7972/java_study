@@ -81,7 +81,11 @@ public class Gugudan {
 		// 8,9 단
 		System.out.print("구구단 중 출력할 단은? : "); // print 는 줄바뀜 없이 출력
 		Scanner scaner = new Scanner(System.in);
-		int number = scaner.nextInt();
+		int number = scaner.nextInt(); 
+		//String str = scaner.next(); // 문자열 입력
+		//if(str.equals("Hello")) // String 프리미티브(Primitive) 타입 아니라 == 로 비교하지 못하고 equals 사용
+		//Primitive Type : byte, short, int, long, char, float, double, boolean
+			
 		System.out.println("사용자 입력한 값 : " + number);
 		
 		if(number < 2) {
